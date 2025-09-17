@@ -1,0 +1,111 @@
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong{
+    color: #00ff00;
+}
+
+#LOGO{
+    width: 200px;
+}
+
+#BANNER-PRINCIPAL{
+    width: 100%;
+}
+
+.BANNER{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo{
+    height: 70px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+}
+
+#banner{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40%;
+
+}
+
+#video{
+    background-color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-bottom: 3px solid orange;
+    border-v
+}
+
+#video > .container > img{
+    height: 315px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.menu > ul > li a:link{
+    text-decoration: none;
+    color: #000000;
+    padding: 1px;
+}
+
+.menu > ul > li a:hover{
+    border-bottom: 2px solid #00ff00;
+}
+
+.menu > ul > li a:active{
+    color: #00ff00;
+    border-bottom: 2px solid #00ff00;
+    font-weight: 700;
+}
+
